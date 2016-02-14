@@ -29,19 +29,24 @@ PODS:
     - MWFeedParser/NSString+HTML
   - MWFeedParser/NSDate+InternetDateTime (1.0.1)
   - MWFeedParser/NSString+HTML (1.0.1)
-  - OCHamcrest (4.1.1)
+  - OCHamcrest (4.3.0)
   - OCMockito (1.4.0):
     - OCHamcrest (~> 4.0)
+  - Typhoon (3.1.8):
+    - Typhoon/no-arc (= 3.1.8)
+  - Typhoon/no-arc (3.1.8)
 
 DEPENDENCIES:
   - AFNetworking (= 2.5.4)
   - MWFeedParser (= 1.0.1)
   - OCMockito (= 1.4.0)
+  - Typhoon (= 3.1.8)
 
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
-  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
+  OCHamcrest: cd63d27f48a266d4412c0b295b01b8f0940efa81
   OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
+  Typhoon: b9b94a384d772458b955164fa826706706058dec
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0
